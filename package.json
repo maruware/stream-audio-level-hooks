@@ -1,0 +1,47 @@
+{
+  "name": "stream-audio-level-hooks",
+  "version": "0.0.1",
+  "description": "React hooks for MediaStream audio level",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maruware/stream-audio-level-hooks.git"
+  },
+  "keywords": [
+    "MediaStream"
+  ],
+  "author": "maruware",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maruware/stream-audio-level-hooks/issues"
+  },
+  "homepage": "https://github.com/maruware/stream-audio-level-hooks#readme",
+  "dependencies": {
+    "stream-audio-level": "0.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint": "^7.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.1.1",
+    "react": "^16.13.1",
+    "typescript": "^4.0.2"
+  }
+}
