@@ -5,7 +5,7 @@ import {
 } from 'stream-audio-level'
 
 export const useStreamAudioLevel = (
-  stream: MediaStream,
+  stream: MediaStream | undefined,
   opt?: WatchStreamAudioLevelOption
 ) => {
   const [v, setV] = useState(0)
