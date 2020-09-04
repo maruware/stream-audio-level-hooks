@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/maruware/stream-audio-level-hooks#readme",
   "dependencies": {
-    "stream-audio-level": "0.0.3"
+    "stream-audio-level": "0.0.4"
   },
   "devDependencies": {
     "@types/react": "^16.9.49",
