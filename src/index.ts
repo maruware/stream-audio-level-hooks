@@ -10,10 +10,11 @@ export const useStreamAudioLevel = (
 ) => {
   const [v, setV] = useState(0)
   useEffect(() => {
+    let close: Function | undefined
     if (stream && stream.getAudioTracks().length > 0) {
-      return watchStreamAudioLevel(stream, setV, opt)
+      close = watchStreamAudioLevel(stream, setV, opt)
     }
-    return () => {}
+    return () => {close && close()}
   }, [stream])
 
   return v
